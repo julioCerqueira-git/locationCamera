@@ -1,0 +1,6 @@
+export type MyPhoto = {
+  uri: string;
+  latitude: number | null;
+  longitude: number | null;
+  timestamp: number;
+};
